@@ -1,7 +1,8 @@
 import Card from './Card'
-import {useState} from 'react'
+import {useState} from 'react';
+
 function App() {
-  let [count,setCount] = useState(0)//Hooks - it is a function
+  let[count,setCount]= useState(0);
   const data = [
     {
       plan:"FREE",
@@ -78,17 +79,18 @@ function App() {
       }
       </div>
       <div>
-        <button className='btn btn-danger'
-        onClick={()=>{
-          setCount(++count)
-          console.log(count)
-        }}
-        >Click Me, I was already clicked {count} times</button>
+        <button class="btn btn-danger" onClick={
+          ()=>{
+              setCount(count+1);
+          }
+        }>I was clicked {count} times</button>
       </div>
+      
     </div>
   </section>
     </>
   )
 }
+
 
 export default App
