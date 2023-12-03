@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 //props --> property
 function Card(props) {
   return <>
@@ -25,6 +25,7 @@ function Card(props) {
           </div>
         </div>
   </>
+
 }
 
 export default Card
