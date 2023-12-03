@@ -73,13 +73,13 @@ function App() {
       {
         data.map((e,i)=>{
           return <Card data = {e} key = {i}/>
-          {/* Sending data to card component via props */}
+         
           
         })
       }
       </div>
       <div>
-        <button class="btn btn-danger" onClick={
+        <button className="btn btn-danger" onClick={
           ()=>{
               setCount(count+1);
           }

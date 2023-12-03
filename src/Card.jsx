@@ -1,4 +1,6 @@
-// import React from 'react'
+/* eslint-disable react/prop-types */
+// eslint-disable-next-line no-unused-vars
+import React from 'react'
 //props --> property
 function Card(props) {
   return <>
